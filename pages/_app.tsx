@@ -18,7 +18,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <title>{title}</title>
         <meta name="description" content={description} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@fiboooo_" />
+        <meta name="twitter:site" content="@fibo_server" />
 
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
