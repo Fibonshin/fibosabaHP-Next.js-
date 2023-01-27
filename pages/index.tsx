@@ -46,7 +46,7 @@ export default function Home() {
         
         
         <div className="m-4  pb-11">
-          <iframe src="https://discord.com/widget?id=879288794560471050&theme=dark" width="350" height="600" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" className="pb-4 "></iframe>
+          <iframe src="https://discord.com/widget?id=879288794560471050&theme=dark" width="350" height="600" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" className="pb-4 "></iframe>
           <a className="twitter-timeline" data-width="350" data-height="600" data-theme="light" href="https://twitter.com/fibo_server?ref_src=twsrc%5Etfw">Tweets by fibo_server</a> <script async src="https://platform.twitter.com/widgets.js"></script>
         </div>
       </main>
