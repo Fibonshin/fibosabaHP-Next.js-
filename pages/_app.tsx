@@ -4,7 +4,7 @@ import Head from 'next/head'
 
 export default function App({ Component, pageProps }: AppProps) {
   const title="ふぃぼなっち鯖 discordコミュニティサーバー";
-  const description="雑談、マイクラ、原神などのdiscordサーバー。メンバー100人突破。ブーストレベル2突破。";
+  const description="雑談、マイクラ、原神などのdiscordサーバー。メンバー100人突破🎉ブーストレベル2突破🎉";
   const url="https://fibosaba.com/";
   const imageUrl="https://fibosaba.com/imgs/top.png";
   return(
