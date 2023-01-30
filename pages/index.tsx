@@ -25,6 +25,8 @@ export default function Home() {
             ほとんどの方がランク50~の上級者であるため、素材集めなども手伝ってくれます。'
             photo1='/imgs/genshin1.png'
             photo2='/imgs/genshin3.png'
+            link='/genshin'
+            linktext='原神ページへ'
           />
 
           <Card 
@@ -32,12 +34,16 @@ export default function Home() {
             description='常設のマインクラフトサーバーが用意されてるため、いつでもマルチプレイを楽しむことができます。マインクラフトJava版が必要となります。'
             photo1='/imgs/minecraft1.png'
             photo2='/imgs/minecraft2.png'
+            link=''
+            linktext=''
           />
           <Card 
             title='やさしいせかいです！'
             description='やさいせいかつかもしれません。鯖民の方はみなさんほんっっっっっとうにやさしいです！どんな話でも聞いてくれる方々であり、日頃から結構どうでもいい会話を繰り広げています。そんな結構平和にやって行けている状況なので、ややこしいルールなんかありません！'
             photo1='/imgs/discord3.png'
             photo2='/imgs/discord4.png'
+            link=''
+            linktext=''
           />
 
           <Card 
@@ -45,6 +51,8 @@ export default function Home() {
             description='まずは自己紹介をしてみましょう！鯖民がスタンプで応えてくれます！'
             photo1='/imgs/discord1.png'
             photo2='/imgs/discord2.png'
+            link=''
+            linktext=''
           />
         </div>
         

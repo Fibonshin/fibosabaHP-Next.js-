@@ -22,6 +22,8 @@ export default function Home() {
             description='素材集めのときなどにマルチの募集をかけると結構すぐに集まります！'
             photo1='/imgs/genshin3.png'
             photo2='/imgs/genshin4.png'
+            link=''
+            linktext=''
           />
 
           <Card 
@@ -29,6 +31,8 @@ export default function Home() {
             description='ほとんどの鯖民は世界ランク8であるため、聖遺物厳選もかなり行っています！そのため、知識も豊富で、わからないこともきけます！'
             photo1='/imgs/gensen2.png'
             photo2='/imgs/gensen1.png'
+            link=''
+            linktext=''
           />
 
           
@@ -38,6 +42,8 @@ export default function Home() {
             description='原神やったことない方でもこの鯖に入って原神をはじめよう！今日こんなにサーバーが活性化してるのも原神のおかげにほかなりません！最高のゲームです！'
             photo1='/imgs/genshin5.png'
             photo2='/imgs/genshin6.png'
+            link=''
+            linktext=''
           />
         </div>
       </main>
