@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 export function Header() {
   return (
@@ -7,10 +8,10 @@ export function Header() {
         <a className="sm:text-2xl lg:pt-10 pl-10 block">雑談、マイクラ、原神などのdiscordサーバー</a>
       </div>
       <ul className="md:text-2xl text-xl flex pl-10 pt-3">
-        <li className="px-5"><a href="/">ホーム</a></li>
-        <li className="px-5"><a href="/test">テスト</a></li>
-        <li className="px-5"><a href="">原神</a></li>
-        <li className="px-5"><a href="">原神</a></li>
+        <li className="px-5"><Link href="/">ホーム</Link></li>
+        <li className="px-5"><Link href="/test">テスト</Link></li>
+        <li className="px-5"><Link href="">原神</Link></li>
+        <li className="px-5"><Link href="">原神</Link></li>
       </ul>
     </header>
     
