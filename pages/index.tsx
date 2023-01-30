@@ -1,6 +1,7 @@
 import {Header} from '@/components/Header'
 import {Card} from '@/components/Card'
 import { Footer } from '@/components/Footer'
+import Link from 'next/link'
 
 
 
@@ -13,7 +14,7 @@ export default function Home() {
         <h1 className="pt-8 sm:pt-20 text-white text-3xl font-bold text-shadow">ブーストレベル２突破🎉</h1>
         <h1 className="pt-4 text-white text-3xl font-bold text-shadow mb-20">メンバー100人突破🎉</h1>
 
-        <a href='https://discord.gg/3NaJcDHctB' className="rounded-full bg-teal-400 text-2xl font-bold text-white hover:bg-white hover:text-teal-500 p-6">サーバーに入る！</a>
+        <Link href='https://discord.gg/3NaJcDHctB' className="rounded-full bg-teal-400 text-2xl font-bold text-white hover:bg-white hover:text-teal-500 p-6">サーバーに入る！</Link>
 
       </div>
       <main className="flex justify-around bg-teal-100 pt-4 pb-20">
