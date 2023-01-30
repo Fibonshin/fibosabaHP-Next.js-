@@ -1,11 +1,8 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import Header from '@/components/Header'
-import Card from '@/components/Card'
+import {Header} from '@/components/Header'
+import {Card} from '@/components/Card'
+import { Footer } from '@/components/Footer'
 
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
@@ -19,7 +16,7 @@ export default function Home() {
         <a href='https://discord.gg/3NaJcDHctB' className="rounded-full bg-teal-400 text-2xl font-bold text-white hover:bg-white hover:text-teal-500 p-6">サーバーに入る！</a>
 
       </div>
-      <main className="lg:flex justify-around bg-teal-100 pt-4">
+      <main className="lg:flex justify-around bg-teal-100 pt-4 pb-20">
         <div className='fibo'>
           <Card 
             title='原神でマルチプレイ!'
@@ -50,6 +47,7 @@ export default function Home() {
           <a className="twitter-timeline" data-width="350" data-height="600" data-theme="light" href="https://twitter.com/fibo_server?ref_src=twsrc%5Etfw">Tweets by fibo_server</a> <script async src="https://platform.twitter.com/widgets.js"></script>
         </div>
       </main>
+      <Footer/>
     </>
   )
 }
