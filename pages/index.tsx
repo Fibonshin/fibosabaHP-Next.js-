@@ -10,21 +10,21 @@ export default function Home() {
     <>
       <Header/>
 
-      <div className="text-center cina pb-16">
+      <div className="text-center cina pb-16 lg:pb-32 xl:pb-64">
         <h1 className="pt-8 sm:pt-20 text-white text-3xl font-bold text-shadow">ブーストレベル２突破🎉</h1>
         <h1 className="pt-4 text-white text-3xl font-bold text-shadow mb-20">メンバー100人突破🎉</h1>
 
         <Link href='https://discord.gg/3NaJcDHctB' className="rounded-full bg-teal-400 text-2xl font-bold text-white hover:bg-white hover:text-teal-500 p-6">サーバーに入る！</Link>
 
       </div>
-      <main className="flex justify-around bg-teal-100 pt-4 pb-20">
+      <main className="flex justify-center bg-teal-100 pt-4 pb-20">
         <div className='fibo'>
           <Card 
             title='原神でマルチプレイ!'
             description='十数人のアクティブな鯖民が原神をしており、雑談やマルチも盛んです。
             ほとんどの方がランク50~の上級者であるため、素材集めなども手伝ってくれます。'
             photo1='/imgs/genshin1.png'
-            photo2='/imgs/genshin2.png'
+            photo2='/imgs/genshin3.png'
           />
 
           <Card 
@@ -32,6 +32,12 @@ export default function Home() {
             description='常設のマインクラフトサーバーが用意されてるため、いつでもマルチプレイを楽しむことができます。マインクラフトJava版が必要となります。'
             photo1='/imgs/minecraft1.png'
             photo2='/imgs/minecraft2.png'
+          />
+          <Card 
+            title='やさしいせかいです！'
+            description='やさいせいかつかもしれません。鯖民の方はみなさんほんっっっっっとうにやさしいです！どんな話でも聞いてくれる方々であり、日頃から結構どうでもいい会話を繰り広げています。そんな結構平和にやって行けている状況なので、ややこしいルールなんかありません！'
+            photo1='/imgs/discord3.png'
+            photo2='/imgs/discord4.png'
           />
 
           <Card 

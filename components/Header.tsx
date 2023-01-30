@@ -9,9 +9,8 @@ export function Header() {
       </div>
       <ul className="md:text-2xl text-xl flex pl-10 pt-3">
         <li className="px-5"><Link href="/">ホーム</Link></li>
-        <li className="px-5"><Link href="/test">テスト</Link></li>
-        <li className="px-5"><Link href="/">原神</Link></li>
-        <li className="px-5"><Link href="/">原神</Link></li>
+        <li className="px-5"><Link href="/genshin">原神</Link></li>
+        <li className="px-5"><Link href="/">制作中</Link></li>
       </ul>
     </header>
     
